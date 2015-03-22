@@ -8,7 +8,7 @@
 // ==/UserScript==
 
 $(function() { 
-   $('#gauche [class^=ligne]').each(function() {
+   $('').each(function() {
 	      if ($(this).html().match(/vostfr/) ) {
          $(this).remove();
 		 }
