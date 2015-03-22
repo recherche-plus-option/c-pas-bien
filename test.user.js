@@ -8,9 +8,8 @@
 // ==/UserScript==
 
 $(function() { 
-   $('[class^=ligne]').each(function() {
-	
-      if ($(this).html().match(/vostfr/) ) {
+   $('#gauche [class^=ligne]').each(function() {
+	      if ($(this).html().match(/vostfr/) ) {
          $(this).remove();
 		 }
    }); 
