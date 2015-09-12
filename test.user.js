@@ -2,7 +2,7 @@
 // @name        no vostfr cpas bien
 // @namespace   no vost fr
 // @description zz
-// @include     http://www.cpasbien.pw/*
+// @include     http://www.cpasbien.*
 // @version     1
 // @grant       none
 // ==/UserScript==
